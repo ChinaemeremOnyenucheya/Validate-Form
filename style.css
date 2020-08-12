@@ -1,0 +1,117 @@
+body {background-color: #006442;}
+
+  /*div housing the container*/
+.holder{display:block;
+		margin-left: auto;
+		margin-right: auto; 
+		width:450px;
+		justify-content: center;
+		background-color:#eeeeee;
+		border-radius: 1.2rem 1.2rem 1.2rem 0;}
+
+/*h1 in container*/
+.holder h1 {text-align: center;
+		padding-top: 50px;
+		margin-bottom:25px;
+		font-size: 1.5rem;
+		line-height: 1.5rem;
+		font-weight: 700;
+		font-family: U8,sans-serif;
+	    color:#006442;}
+
+/*Paragraph in container*/
+.holder #paraOne,#paraTwo,#paraThree,#paraFour{font-family: Karla,sans-serif;
+		color: #4a5568;
+		font-size: 0.875rem;
+		padding-left: 40px;
+		margin-top: 0;
+		margin-bottom:10px;}
+
+/*Input label*/
+label {padding-left: 40px;
+	   font-weight: 700;
+	   font-size: 0.75rem;
+	   font-family:U8,sans-serif;
+	   color: #4a5568;}
+
+/*Input field for collecting user details*/
+input {color: #fff;
+	  background-color: #4daf7c;
+	  line-height:20px;
+	  width: 75%;
+	  padding: 1rem;
+	  margin-left: 40px;
+	  margin-top: 10px;
+	  margin-bottom: 18px;
+	  border: 0 solid #e2e8f0;
+	  border-radius: 4px 4px 4px 4px;}
+
+input:focus {outline:none;}
+
+/*Submit button*/
+button{margin-top: 30px;
+	   margin-bottom: 40px;
+	   margin-left: 40px;
+	   width: 82%;
+	   background-color: #006442;
+	   font-family: U8,sans-serif;
+	   font-weight: 700;
+	   font-size: 0.875rem;
+	   text-align: center;
+	   color:#fff;
+	   height: 60px;
+	   outline: none;
+	   border: 0;
+	   border-radius: 1.2rem 1.2rem 1.2rem 0;}    
+
+ button:hover {cursor: pointer;
+ 			  background-color:#87d37c;}
+ 
+/*Screen adjustment*/
+@media screen and (max-width: 320px){
+
+.holder{width: 280px;}
+
+.holder h1{font-size: 1.5rem;
+		  font-weight: 600;}
+
+.breakpoint{display: inline-block;
+			width: 200px;}
+
+input{width: 62%;}
+
+button{width: 73%;}
+}  
+
+
+@media screen and (min-width: 375px){
+
+ .holder{width: 350px;}
+
+ .holder h1{font-size: 1.5rem;
+		  font-weight: 600;}
+
+input{width: 69%;}
+
+button{width: 79%;}
+}
+  
+
+@media screen and (min-width: 425px){
+
+ .holder{width: 400px;}
+
+ input{width: 73%;}
+
+ button{width: 83%;}
+}
+
+@media screen and (min-width: 768px){
+
+ .holder{width: 450px;}
+
+ input{width: 75%;}
+
+ button{width: 82%;}
+
+}
